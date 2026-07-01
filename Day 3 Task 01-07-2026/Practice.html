@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-gap:10px;
+            grid-template-rows:repeat(2,100px);
+            width:600px;
+            
+        }
+        .item{
+            border:2px solid black;
+            height:100px;
+            text-align:center;
+        }
+        #header{
+            text-align:center;
+            background-color:rgb(186, 186, 189)
+        }
+        #main{
+            display:flex;
+            gap: 20px;x
+        }
+        #sidebar{
+             border:2px solid black;
+            text-align:center;
+            background-color:rgb(186, 186, 189);
+
+        }
+        #footer{
+            text-align:center;
+            background-color:rgb(186, 186, 189);
+
+            margin-top:80px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2 id="header">header</h2>
+    <div id="main">
+        <h2 id="Sidebar">Sidebar</h2>
+    <div id="container">
+        <h4 class="item">item1</h4>
+        <h4 class="item">item2</h4>
+        <h4 class="item">item3</h4>
+        <h4 class="item">item4</h4>
+        <h4 class="item">item5</h4>
+        <h4 class="item">item6</h4>
+    </div>
+    </div>
+    <h2 id="footer">Footer</h2>
+</body>
+</html>
