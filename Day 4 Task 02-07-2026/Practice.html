@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            display :flex;
+            flex-direction:row;
+            gap:40px;
+            font-size:50px;
+            color:aliceblue
+        }
+        #cards{
+            display:grid;
+            grid-template-columns:repeat(4,1fr);
+            gap:20px;
+           
+        }
+        .card{
+            border:2px , solid , black;
+            height:40px;
+            text-align:center;
+        }
+
+        @media(min-width:768px)and (max-width:1280px){
+            #cards{
+                grid-template-columns:repeat(2,1fr);
+                background-color:rgb(26, 228, 113)
+            }
+            #container{
+                color:black;
+                font-size:30px;
+            }
+        }
+        @media(max-width:767px){
+            #cards{
+                grid-template-columns:repeat(1,1fr);
+               
+            }
+            #container{
+                flex-direction:column;
+                font-size:25px;
+            }
+            #main{
+                display:flex;
+                gap:100px;
+                 background-color:rgb(235, 7, 7)
+            }
+        }
+        @media(min-width:1281px){
+            #main{
+                 background-color:rgb(66, 38, 188)
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+    <div id="container">
+        <p>Login</p>
+        <p>Home</p>
+        <p>contact</p>
+        <p>About</p>
+    </div>
+    <div id="cards">
+        <h4 class="card">Card 1</h4>
+        <h4 class="card">Card 2</h4>
+        <h4 class="card">Card 3</h4>
+        <h4 class="card">Card 4</h4>
+        <h4 class="card">Card 5</h4>
+        <h4 class="card">Card 6</h4>
+        <h4 class="card">Card 7</h4>
+        <h4 class="card">Card 8</h4>
+        <h4 class="card">Card 9</h4>
+        <h4 class="card">Card 10</h4>
+        <h4 class="card">Card 11</h4>
+        <h4 class="card">Card 12</h4>
+    </div>
+    </div>
+
+</body>
+</html>
