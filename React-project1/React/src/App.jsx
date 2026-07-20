@@ -3,7 +3,10 @@
 // import Navbar from "./Revision 16-07-2026/Mini Project/components/navbar"
 // import { Student } from "./Revision 16-07-2026/Mini Project/Redux/Store"
 // import Theme from "./Revision 16-07-2026/Mini Project/context/Theme Context"
-import Page from "./React All 17-07-2026/Axios"
+import Dashboard from "./Condetional rendering 20-07-2026/dashboard"
+import Loading from "./Condetional rendering 20-07-2026/Loading"
+import Practice from "./Condetional rendering 20-07-2026/login"
+// import Page from "./React All 17-07-2026/Axios"
 // import Counter from "./UseReducer 15-07-2026/Counter"
 // import Reducer from "./UseReducer 15-07-2026/use reducer"
 
@@ -18,7 +21,10 @@ function APP(){
     {/* <Navbar/>
     <Student/> */}
     {/* <Theme/> */} *
-    <Page/>
+    {/* <Page/> */}
+    <Practice/>
+    <Dashboard/>
+    <Loading/>
     </>
   )
 }
