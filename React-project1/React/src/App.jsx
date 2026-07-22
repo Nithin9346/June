@@ -10,9 +10,13 @@
 // import Counter from "./UseReducer 15-07-2026/Counter"
 // import Reducer from "./UseReducer 15-07-2026/use reducer"
 
-import Axios from "./21-07-2026/Axios"
-import Clean from "./21-07-2026/Cleanup"
-import Fetch from "./21-07-2026/Fetch"
+// import Axios from "./21-07-2026/Axios"
+// import Clean from "./21-07-2026/Cleanup"
+// import Fetch from "./21-07-2026/Fetch"
+import Checkbox from "./22-07-2026/Check box"
+import Input from "./22-07-2026/form"
+import Radio from "./22-07-2026/Radio"
+import RegistrationForm from "./22-07-2026/Validation"
 
 
 
@@ -31,9 +35,13 @@ function APP(){
     {/* <Practice/>
     <Dashboard/>
     <Loading/> */}
-    <Clean/>
+    {/* <Clean/>
     <Fetch/>
-    <Axios/>
+    <Axios/> */}
+    <Input/>
+    <Radio/>
+    <Checkbox/>
+    <RegistrationForm/>
 
     </>
   )
