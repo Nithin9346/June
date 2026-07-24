@@ -17,6 +17,9 @@ import Checkbox from "./22-07-2026/Check box"
 import Input from "./22-07-2026/form"
 import Radio from "./22-07-2026/Radio"
 import RegistrationForm from "./22-07-2026/Validation"
+import Users from "./24-07-2026/fetch"
+import Login from "./24-07-2026/login"
+import Search from "./24-07-2026/search"
 
 
 
@@ -38,10 +41,14 @@ function APP(){
     {/* <Clean/>
     <Fetch/>
     <Axios/> */}
-    <Input/>
+    {/* <Input/>
     <Radio/>
     <Checkbox/>
-    <RegistrationForm/>
+    <RegistrationForm/> */}
+    <Login/>
+    <Users/>
+    {/* <Map/> */}
+    <Search/>
 
     </>
   )
