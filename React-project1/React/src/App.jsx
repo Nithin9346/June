@@ -20,6 +20,9 @@ import RegistrationForm from "./22-07-2026/Validation"
 import Users from "./24-07-2026/fetch"
 import Login from "./24-07-2026/login"
 import Search from "./24-07-2026/search"
+import Api from "./27-07-2026/API Call"
+import Axios from "./27-07-2026/axios"
+import Practice from "./27-07-2026/Reactmemo"
 
 
 
@@ -45,10 +48,14 @@ function APP(){
     <Radio/>
     <Checkbox/>
     <RegistrationForm/> */}
-    <Login/>
-    <Users/>
+    {/* <Login/>
+    <Users/> */}
     {/* <Map/> */}
-    <Search/>
+    {/* <Search/> */}
+    <Api/>
+    <Axios/>
+    <Practice/>
+    
 
     </>
   )
