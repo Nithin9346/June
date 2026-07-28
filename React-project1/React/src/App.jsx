@@ -13,22 +13,32 @@
 // import Axios from "./21-07-2026/Axios"
 // import Clean from "./21-07-2026/Cleanup"
 // import Fetch from "./21-07-2026/Fetch"
-import Checkbox from "./22-07-2026/Check box"
-import Input from "./22-07-2026/form"
-import Radio from "./22-07-2026/Radio"
-import RegistrationForm from "./22-07-2026/Validation"
-import Users from "./24-07-2026/fetch"
-import Login from "./24-07-2026/login"
-import Search from "./24-07-2026/search"
-import Api from "./27-07-2026/API Call"
-import Axios from "./27-07-2026/axios"
-import Practice from "./27-07-2026/Reactmemo"
+// import Checkbox from "./22-07-2026/Check box"
+// import Input from "./22-07-2026/form"
+// import Radio from "./22-07-2026/Radio"
+// import RegistrationForm from "./22-07-2026/Validation"
+// import Users from "./24-07-2026/fetch"
+// import Login from "./24-07-2026/login"
+// import Search from "./24-07-2026/search"
+// import Api from "./27-07-2026/API Call"
+// import Axios from "./27-07-2026/axios"
+// import Practice from "./27-07-2026/Reactmemo"
+// import withAuth from "./28-07-2026/HOC/authentication"
+import Hook from "./28-07-2026/Custom Hooks/Practice";
+import Dashboard from "./28-07-2026/HOC/Dashboard"
+import withLoading from "./28-07-2026/HOC/authentication";
+
+
+
+const ProtectedDashboard = withLoading(Dashboard);
 
 
 
 function APP(){
   return(
     <>
+    <ProtectedDashboard/>
+    <Hook/>
     {/* <Reducer/>
     <Counter/> */}
     {/* <Login>
@@ -52,9 +62,9 @@ function APP(){
     <Users/> */}
     {/* <Map/> */}
     {/* <Search/> */}
-    <Api/>
+    {/* <Api/>
     <Axios/>
-    <Practice/>
+    <Practice/> */}
     
 
     </>
