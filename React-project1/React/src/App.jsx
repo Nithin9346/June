@@ -24,21 +24,27 @@
 // import Axios from "./27-07-2026/axios"
 // import Practice from "./27-07-2026/Reactmemo"
 // import withAuth from "./28-07-2026/HOC/authentication"
-import Hook from "./28-07-2026/Custom Hooks/Practice";
-import Dashboard from "./28-07-2026/HOC/Dashboard"
-import withLoading from "./28-07-2026/HOC/authentication";
+// import Hook from "./28-07-2026/Custom Hooks/Practice";
+// import Dashboard from "./28-07-2026/HOC/Dashboard"
+// import withLoading from "./28-07-2026/HOC/authentication";
+import Parent from "./29-07-2026/React.memo/Parent";
+import Parent1 from "./29-07-2026/Use Callback/Parent";
+import Practice from "./29-07-2026/Usememo";
 
 
 
-const ProtectedDashboard = withLoading(Dashboard);
+// const ProtectedDashboard = withLoading(Dashboard);
 
 
 
 function APP(){
   return(
     <>
-    <ProtectedDashboard/>
-    <Hook/>
+    <Parent/>
+    <Parent1/>
+    <Practice/>
+    {/* <ProtectedDashboard/>
+    <Hook/> */}
     {/* <Reducer/>
     <Counter/> */}
     {/* <Login>
