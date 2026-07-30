@@ -10,6 +10,12 @@
 // import Counter from "./UseReducer 15-07-2026/Counter"
 // import Reducer from "./UseReducer 15-07-2026/use reducer"
 
+import Button from "./30-07-2026/Event Binding/Button"
+import Change from "./30-07-2026/Event Binding/change"
+import Login from "./30-07-2026/Event Binding/Login"
+import App from "./30-07-2026/Mini Assegfnament/index2"
+import Practice from "./30-07-2026/Reaact portals"
+
 // import Axios from "./21-07-2026/Axios"
 // import Clean from "./21-07-2026/Cleanup"
 // import Fetch from "./21-07-2026/Fetch"
@@ -27,9 +33,9 @@
 // import Hook from "./28-07-2026/Custom Hooks/Practice";
 // import Dashboard from "./28-07-2026/HOC/Dashboard"
 // import withLoading from "./28-07-2026/HOC/authentication";
-import Parent from "./29-07-2026/React.memo/Parent";
-import Parent1 from "./29-07-2026/Use Callback/Parent";
-import Practice from "./29-07-2026/Usememo";
+// import Parent from "./29-07-2026/React.memo/Parent";
+// import Parent1 from "./29-07-2026/Use Callback/Parent";
+// import Practice from "./29-07-2026/Usememo";
 
 
 
@@ -40,9 +46,14 @@ import Practice from "./29-07-2026/Usememo";
 function APP(){
   return(
     <>
-    <Parent/>
-    <Parent1/>
     <Practice/>
+    <Button/>
+    <Login/>
+    <Change/>
+    <App/>
+    {/* <Parent/>
+    <Parent1/>
+    <Practice/> */}
     {/* <ProtectedDashboard/>
     <Hook/> */}
     {/* <Reducer/>
