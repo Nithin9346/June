@@ -10,11 +10,16 @@
 // import Counter from "./UseReducer 15-07-2026/Counter"
 // import Reducer from "./UseReducer 15-07-2026/use reducer"
 
-import Button from "./30-07-2026/Event Binding/Button"
-import Change from "./30-07-2026/Event Binding/change"
-import Login from "./30-07-2026/Event Binding/Login"
-import App from "./30-07-2026/Mini Assegfnament/index2"
-import Practice from "./30-07-2026/Reaact portals"
+import Employee from "./31-07-2026/Final Mini Project/components/Employee"
+import Main from "./31-07-2026/Lazy Loading/main"
+import Users from "./31-07-2026/List rendering"
+import Practice from "./31-07-2026/List rendering/index1"
+
+// import Button from "./30-07-2026/Event Binding/Button"
+// import Change from "./30-07-2026/Event Binding/change"
+// import Login from "./30-07-2026/Event Binding/Login"
+// import App from "./30-07-2026/Mini Assegfnament/index2"
+// import Practice from "./30-07-2026/Reaact portals"
 
 // import Axios from "./21-07-2026/Axios"
 // import Clean from "./21-07-2026/Cleanup"
@@ -46,11 +51,15 @@ import Practice from "./30-07-2026/Reaact portals"
 function APP(){
   return(
     <>
-    <Practice/>
+    {/* <Users/>
+    <Practice/> */}
+    <Main/>
+    {/* <Employee/> */}
+    {/* <Practice/>
     <Button/>
     <Login/>
     <Change/>
-    <App/>
+    <App/> */}
     {/* <Parent/>
     <Parent1/>
     <Practice/> */}
