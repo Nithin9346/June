@@ -6,7 +6,7 @@ const About = lazy(()=>import("./About"))
 function Main(){
     return(
         <>
-        <Suspense fallback={<h2>Loadoing...</h2>}>
+         <Suspense fallback={<h2>Loadoing...</h2>}>
             <Home/>
             <About/>
         </Suspense>

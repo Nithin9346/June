@@ -10,10 +10,22 @@
 // import Counter from "./UseReducer 15-07-2026/Counter"
 // import Reducer from "./UseReducer 15-07-2026/use reducer"
 
-import Employee from "./31-07-2026/Final Mini Project/components/Employee"
-import Main from "./31-07-2026/Lazy Loading/main"
-import Users from "./31-07-2026/List rendering"
-import Practice from "./31-07-2026/List rendering/index1"
+// import Login from "./04-08-2026/Navigation/Index"
+import Index from "./04-08-2026/Dynamic/Index"
+import Practice from "./04-08-2026/Nested routing/Routing"
+// import Practice from "./04-08-2026/Nested routing/Routing"
+
+// import Main from "./03-08-2026/Main"
+
+
+
+
+
+
+// import Employee from "./31-07-2026/Final Mini Project/components/Employee"
+// import Main from "./31-07-2026/Lazy Loading/main"
+// import Users from "./31-07-2026/List rendering"
+// import Practice from "./31-07-2026/List rendering/index1"
 
 // import Button from "./30-07-2026/Event Binding/Button"
 // import Change from "./30-07-2026/Event Binding/change"
@@ -51,9 +63,15 @@ import Practice from "./31-07-2026/List rendering/index1"
 function APP(){
   return(
     <>
+    {/* <Practice/> */}
+    <Index/>
+    <Practice/>
+    <Login/>
+    {/* <Main/> */}
+   
     {/* <Users/>
     <Practice/> */}
-    <Main/>
+    {/* <Main/> */}
     {/* <Employee/> */}
     {/* <Practice/>
     <Button/>
